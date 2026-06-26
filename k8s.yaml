@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: tannphanu/resttemplateserver-hub
+          image: tannphanu/resttemplateserver-hub:f0ccf581681111dd57891523f721b82c01c48169
           ports:
             - containerPort: 8080
           env:
